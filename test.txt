@@ -1,16 +1,6 @@
-查看字符集
-show variables like '%char%';
-查看事务状态
-show variables like '%commit%'
-- 打开事务自动提交的方式：
-set autocommit = off
-或
-set session autocommit=off
-开启事务，提交事务，回滚事务
-start transaction; commit;rollback;
-
-create table user(
+﻿create table user(
 id int(11) primary key not null auto_increment,
 username varchar(30),
 password varchar(30)
 );
+555555555555
