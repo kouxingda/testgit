@@ -14,4 +14,3 @@ id int(11) primary key not null auto_increment,
 username varchar(30),
 password varchar(30)
 );
-mysql 8.0以下
